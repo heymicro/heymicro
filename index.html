@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="An open personal assistant. Technology that works for you.">
+  <title>Hey Micro 👋</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #faf9f6;
+      color: #24251f;
+      font: 18px/1.7 system-ui, -apple-system, sans-serif;
+    }
+    main { max-width: 720px; margin: auto; padding: 56px 24px; }
+    header { margin-bottom: 72px; font-weight: 600; }
+    h1 {
+      font-size: clamp(40px, 8vw, 64px);
+      font-weight: 500;
+      line-height: 1.1;
+      letter-spacing: -.045em;
+      margin: 0 0 32px;
+    }
+    h2 { font-size: 23px; font-weight: 500; margin: 36px 0 12px; }
+    p { margin: 0 0 22px; }
+    a { color: inherit; text-underline-offset: 4px; }
+    a:focus-visible { outline: 2px solid #496348; outline-offset: 5px; }
+    .lead { font-size: 23px; line-height: 1.5; }
+    .actions { display: flex; flex-wrap: wrap; gap: 16px 24px; align-items: center; margin-top: 36px; }
+    .button {
+      padding: 12px 22px;
+      background: #24251f;
+      color: white;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+    .button:hover { background: #45473c; }
+    footer {
+      margin-top: 56px;
+      padding-top: 20px;
+      border-top: 1px solid #dedfd7;
+      font-size: 14px;
+      color: #66685e;
+    }
+    @media (max-width: 600px) {
+      main { padding: 32px 22px; }
+      header { margin-bottom: 48px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>Hey Micro 👋</header>
+
+    <h1>Technology should<br>work for you.</h1>
+
+    <p class="lead">
+      Your life belongs to you. Your conversations, your memories,
+      your attention. They shouldn't be the price of admission.
+    </p>
+
+    <p>
+      We’re building Micro: an open personal assistant for everyday life.
+      A place to ask questions, make sense of things and get something done.
+      Something useful that lets you get on with your day.
+    </p>
+
+    <h2>Help without the hooks.</h2>
+    <p>
+      Our commitment is simple: no advertising, no selling your attention,
+      no designing for addiction. An assistant should help you spend less
+      time dealing with technology.
+    </p>
+
+    <h2>Open means you have a choice.</h2>
+    <p>
+      Read the code. Run your own server. Choose your models.
+      Or use our hosted service without having to manage the infrastructure.
+      You shouldn't need to become a system administrator to have an alternative.
+    </p>
+
+    <h2>Independence is something we build.</h2>
+    <p>
+      Micro still relies on external providers for some capabilities.
+      We believe those dependencies should be visible, replaceable and
+      under your control. That’s the direction we’re working towards.
+    </p>
+
+    <h2>Make room for life.</h2>
+    <p>
+      The goal is to make everyday life a little simpler.
+      A useful answer. One small action. Something you no longer
+      have to keep in your head.
+    </p>
+
+    <div class="actions">
+      <a class="button" href="https://micro.mu">Use Micro</a>
+      <a href="https://github.com/micro/mu">Source code</a>
+      <a href="https://micro.mu/install">Install Micro</a>
+    </div>
+
+    <footer>
+      Micro — an open personal assistant.<br>
+      Built by <a href="https://micro.mu/about">Micro XYZ Ltd</a>.
+    </footer>
+  </main>
+</body>
+</html>

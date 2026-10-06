@@ -42,6 +42,6 @@ Start by using it. Tell us what you need, suggest an improvement, or share this 
 
 [Use Micro](https://micro.mu) · [Send feedback](mailto:support@micro.mu) · [Suggest an improvement](https://github.com/micro/mu/issues)
 
-Developed and operated by Micro XYZ LTD. Paid hosted plans and usage help fund the service and development.
+Developed and operated by Micro XYZ LTD.
 
 [Source code](https://github.com/micro/mu) · [Install Micro](https://micro.mu/install) · [Privacy](https://micro.mu/privacy)

@@ -3,7 +3,7 @@
 The Micro Manifesto
 
 ## Technology should work for you.
-Your life belongs to you. Your conversations, your memories, your attention. They shouldn't be the price of admission.
+Your life does not belong to tech companies. Your conversations, your memories, your attention. They shouldn't be the price of admission.
 
 We’re building Micro: an open personal assistant for everyday life. A place to ask questions, make sense of things and get something done. Something useful that lets you get on with your day.
 

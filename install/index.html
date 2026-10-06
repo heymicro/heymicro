@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Install and run Micro on your own computer.">
+  <title>Install Micro — Hey Micro</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main>
+    <header><a href="/">Hey Micro 👋</a></header>
+    <h1>Install Micro.</h1>
+    <p>For Linux or macOS. On Windows, use WSL2. Prefer no setup? <a href="https://micro.mu">Use Micro online</a>.</p>
+    <h2>1. Install</h2>
+    <p>Open a terminal and run:</p>
+    <pre><code>curl -fsSL https://raw.githubusercontent.com/micro/mu/main/install.sh | sh</code></pre>
+    <h2>2. Start</h2>
+    <pre><code>~/.local/bin/mu --serve --address 127.0.0.1:8080</code></pre>
+    <h2>3. Open Micro</h2>
+    <p>Go to <a href="http://localhost:8080">localhost:8080</a>. Create your account and choose an AI provider. You can skip the provider for now; the assistant needs one to answer questions. A hosted provider needs an API key; a local provider needs a running model.</p>
+    <p>Keep the terminal open while using Micro. Press <strong>Ctrl+C</strong> to stop; use the same start command next time. Your data stays in <code>~/.mu</code>.</p>
+    <p class="hint">For hosting, model configuration and other options, see the <a href="https://github.com/micro/mu/tree/main/docs">documentation</a>.</p>
+    <footer>
+      Developed and operated by Micro XYZ LTD.
+      <div class="actions">
+        <a href="/">Hey Micro</a>
+        <a href="https://github.com/micro/mu">Source code</a>
+        <a href="/install">Install Micro</a>
+        <a href="/privacy">Privacy</a>
+        <a href="/feedback">Send feedback</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

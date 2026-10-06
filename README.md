@@ -40,7 +40,7 @@ The goal is to make everyday life a little simpler. A useful answer. One small a
 
 Start by using it. Tell us what you need, suggest an improvement, or share this manifesto with someone who wants an alternative. Your experience matters, whether or not you are technical.
 
-[Use Micro](https://micro.mu) · [Send feedback](https://micro.mu/forms/view?id=3a1264bb-ef86-44e9-8a0d-41e8353333a3) · [Suggest an improvement](https://github.com/micro/mu/issues)
+[Use Micro](https://micro.mu) · [Send feedback](https://heymicro.org/feedback) · [Suggest an improvement](https://github.com/micro/mu/issues)
 
 Developed and operated by Micro XYZ LTD.
 

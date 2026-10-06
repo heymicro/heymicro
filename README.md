@@ -44,4 +44,4 @@ Start by using it. Tell us what you need, suggest an improvement, or share this 
 
 Developed and operated by Micro XYZ LTD.
 
-[Source code](https://github.com/micro/mu) · [Install Micro](https://micro.mu/install) · [Privacy](https://micro.mu/privacy)
+[Source code](https://github.com/micro/mu) · [Install Micro](https://heymicro.org/install) · [Privacy](https://heymicro.org/privacy)

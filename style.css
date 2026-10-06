@@ -48,3 +48,6 @@
     input:focus-visible, textarea:focus-visible, button:focus-visible { outline: 2px solid #496348; outline-offset: 3px; }
     button { border: 0; font: inherit; cursor: pointer; justify-self: start; }
     .hint { font-size: 15px; color: #66685e; margin: 0; }
+
+    pre { padding: 16px; background: #efeee8; border-radius: 6px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    code { font-size: .88em; }

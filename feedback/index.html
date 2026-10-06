@@ -6,23 +6,25 @@
   <meta name="description" content="Help shape Micro. Tell us what would make it useful in your daily life.">
   <title>Send feedback — Hey Micro</title>
   <link rel="stylesheet" href="/style.css">
+  <script defer src="/feedback.js"></script>
 </head>
-<body>
+<body class="interaction">
   <main>
     <header><a href="/">Hey Micro 👋</a></header>
     <h1>Help shape Micro.</h1>
-    <p class="lead">Tell us what would make Micro useful in your daily life, or what gets in your way.</p>
-    <form method="post" action="https://micro.mu/forms/submit?id=3a1264bb-ef86-44e9-8a0d-41e8353333a3">
-      <label>Email (optional)
-        <input type="email" name="email" autocomplete="email" maxlength="1000" aria-describedby="email-hint">
+    <p class="lead">Tell us what would make Micro useful in your daily life.</p>
+    <form id="feedback-form" method="post" action="https://micro.mu/forms/submit?id=3a1264bb-ef86-44e9-8a0d-41e8353333a3">
+      <label>Email (optional, for a reply)
+        <input type="email" name="email" autocomplete="email" maxlength="1000">
       </label>
-      <p class="hint" id="email-hint">Leave your email if you would like a reply.</p>
       <label>Message
-        <textarea name="message" rows="6" maxlength="8000" required></textarea>
+        <textarea name="message" rows="3" maxlength="8000" required></textarea>
       </label>
-      <p class="hint">Your feedback is sent privately to Micro. No account is required.</p>
+      <p class="hint">Private feedback. No account needed.</p>
+      <p class="hint" id="feedback-status" role="status" aria-live="polite"></p>
       <button class="button" type="submit">Send feedback</button>
     </form>
+    <section id="feedback-received" hidden tabindex="-1"><h2>Thank you.</h2><p>Your feedback has been received.</p><a href="/">Back to Hey Micro</a></section>
     <footer>
       Developed and operated by Micro XYZ LTD.
       <div class="actions">

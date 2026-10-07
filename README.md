@@ -1,6 +1,6 @@
 # Hey Micro 👋
 
-The Micro manifesto — [heymicro.org](https://heymicro.org).
+The Micro manifesto
 
 ## Technology should work for you.
 

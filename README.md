@@ -40,8 +40,4 @@ The goal is to make everyday life a little simpler. A useful answer. One small a
 
 Start by using it. Tell us what you need, suggest an improvement, or share this manifesto with someone who wants an alternative. Your experience matters, whether or not you are technical.
 
-[Use Micro](https://micro.mu) · [Install the app](https://heymicro.org/app) · [Send feedback](https://heymicro.org/feedback) · [Suggest an improvement](https://github.com/micro/mu/issues)
-
-Developed and operated by Micro XYZ LTD.
-
-[Source code](https://github.com/micro/mu) · [Self-host Micro](https://heymicro.org/install) · [Privacy](https://heymicro.org/privacy)
+[Install the app](https://heymicro.org/app) · [Send feedback](https://heymicro.org/feedback)
